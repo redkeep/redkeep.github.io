@@ -1,1 +1,1 @@
-console.log("successfully fetched  the script :)");
+console.log("successfully fetched  the script");
